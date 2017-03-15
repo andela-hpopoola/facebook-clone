@@ -149,6 +149,7 @@ a{
 .main-content .right-content .tagline{
 	font-size: 19px;
 	color: #1d2129;
+	margin-top: 10px;
 }
 
 .main-content .right-content .sign-up-form{
@@ -168,6 +169,9 @@ a{
 
 .main-content .right-content input.small{
 	width:172px;
+}
+.main-content .right-content input.left{
+	margin-left: 5px;
 }
 
 .main-content .right-content .select-holder{
@@ -216,7 +220,7 @@ a{
     color: #777;
     font-size: 11px;
     width: 316px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .main-content .info{
@@ -249,4 +253,10 @@ a{
 	line-height: 20px;
 	display: inline-block;
 	padding-right: 25px;
+}
+
+.footer .copyright{
+	font-size: 11px;
+	color: #737373;
+	margin: 30px 0 40px;
 }

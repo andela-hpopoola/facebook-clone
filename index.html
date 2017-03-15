@@ -37,10 +37,10 @@
               </tr>
               <tr>
                 <td>
-                  <input class="email" type="email" name="email" id="email" value="">
+                  <input class="email" type="email" name="email" id="email" value="" required>
                 </td>
                 <td>
-                  <input class="password" type="password" name="pass" id="pass">
+                  <input class="password" type="password" name="pass" id="pass" required>
                 </td>
                 <td>
                   <input value="Log In" class="button" type="submit">
@@ -77,15 +77,15 @@
 
         <div class="sign-up-form">
 
-          <input type="text" name="first_name" class="small" placeholder="First Name">
+          <input type="text" name="first_name" class="small" placeholder="First Name" required>
 
-          <input type="text" name="surname" class="small" placeholder="Surname">
+          <input type="text" name="surname" class="small left" placeholder="Surname" required>
 
-          <input type="text" name="mobile_or_email" placeholder="Mobile number or email address">
+          <input type="text" name="mobile_or_email" placeholder="Mobile number or email address" required>
 
-          <input type="text" name="mobile_or_email2" placeholder="Re-enter Mobile number or email address">
+          <input type="text" name="mobile_or_email2" placeholder="Re-enter Mobile number or email address" required>
 
-          <input type="text" name="password" placeholder="Password">
+          <input type="text" name="password" placeholder="Password" required>
 
           <h3 class="tagline">Birthday</h3>
           
@@ -260,8 +260,8 @@
           </div>
 
           <div class="radio-holder">
+            <label><input type="radio" name="sex">FeMale</label>
             <label><input type="radio" name="sex">Male</label>
-            <label><input type="radio" name="sex">Female</label>
           </div>
 
           <div class="small-gray">By clicking Create an account, you agree to our <a href="#">Terms</a> and confirm that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use Policy</a>. You may receive SMS message notifications from Facebook and can opt out at any time.</p>
@@ -322,6 +322,8 @@
           </tr>
         </tbody>
       </table>
+
+      <div class="copyright"> Facebook &copy; 2017</div>
 
     </footer>    
   </div>
