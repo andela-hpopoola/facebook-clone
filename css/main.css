@@ -74,7 +74,7 @@ body{
 
 .top-blue{
 	background-color: #365998;
-	height: 50px;
+	height: 60px;
 	padding: 15px 0 5px 0;
 }
 
@@ -85,6 +85,8 @@ body{
 
 .top-blue label{
 	color: #fff;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 .top-blue input.email, input.password{
@@ -118,11 +120,13 @@ body{
 	color: #9cb4d8;
     font-weight: normal;
     display: inline-block;
+    text-decoration: none;
+    padding: 6px 0;
 }
 
 .main-content{
-	padding-top: 30px;
-	min-height: 400px;
+	padding-top: 50px;
+	min-height: 600px;
 	background: linear-gradient(white, #D3D8E8);
 	clear:both;
 }
@@ -170,9 +174,14 @@ body{
 }
 
 .main-content .right-content label{
-	display: inline-block;
-	width: 172px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 0;
+    margin-left: -31px;
 }
+
+
 .main-content .right-content select{
 	border: 1px solid #bdc7d8;
     box-sizing: border-box;
@@ -181,8 +190,48 @@ body{
     height: 30px;
     padding: 5px 10px;
     text-indent: 0px;
-    text-shadow: none;
     display: inline-block;
     margin-left: -5px;
 
+}
+
+.main-content .right-content .radio-holder{
+	border-radius: 4px;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 0 5px 4px;
+    vertical-align: middle;
+}
+.main-content .right-content input[type=radio]{
+	width: 30px;
+	margin-left: 20px;
+}
+
+.main-content .small-gray{
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin-top: 30px;
+}
+
+.main-content .info{
+	font-size: 13px;
+    font-weight: bold;
+}
+.main-content .info a{
+	color: #365899;
+    text-decoration: none;
+}
+.green-button{
+	padding: 7px 20px;
+    text-align: center;
+    background-color: #69a74e;
+    border: #69a74e;
+    font-size:18px;
+    margin: 30px 0;
+    color: white;
+}
+.left-content.connect{
+	padding-right: 80px;
+	width: 500px;
 }
